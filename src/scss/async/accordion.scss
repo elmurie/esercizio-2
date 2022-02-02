@@ -1,0 +1,23 @@
+@import '@scssFolder/vars.scss';
+
+
+.accordion {
+    background-color: yellow;
+    width: 85%;
+    margin: 0 auto;
+    
+    &__ul {
+        background-color: black;
+        &__li {
+            margin : 10px 0;
+            color: #fff;
+            &--subpanel {
+                width: 100%;
+                height: 40px;
+                background-color: yellow;
+            }
+        }
+    }
+}
+
+
